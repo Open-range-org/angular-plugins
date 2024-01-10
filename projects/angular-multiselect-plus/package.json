@@ -1,0 +1,31 @@
+{
+  "name": "angular-multiselect-plus",
+  "version": "1.1.0",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "public-api.ts"
+    },
+    "allowedNonPeerDependencies": [
+      "@tweenjs/tween.js"
+    ],
+    "assets": [
+      "README.md",
+      "LICENSE",
+      "./themes/*.theme.scss",
+      "./themes/*.theme.css"
+    ]
+  },
+  "peerDependencies": {
+    "@tweenjs/tween.js": "^21.0.0"
+  },
+  "dependencies": {
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Open-range-org/Documentation"
+  },
+  "bugs": {
+    "url": "https://github.com/Open-range-org/Documentation"
+  }
+}
