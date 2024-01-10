@@ -1,0 +1,11 @@
+----------------------------Build, test, and lint the project with CLI commands:
+
+
+ng build angular-multiselect-plus --configuration development
+ng test angular-multiselect-plus
+ng lint angular-multiselect-plus
+
+------------------------------build and publish
+ng build angular-multiselect-plus
+cd dist/angular-multiselect-plus
+npm publish
